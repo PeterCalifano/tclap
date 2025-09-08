@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../cpp_cuda_template_project"
+		},
+		{
+			"path": "../study_notes_archive"
+		}
+	],
+	"settings": {}
+}
