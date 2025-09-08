@@ -23,7 +23,7 @@ std::ostream &operator<<(std::ostream &os, const std::pair<int, double> &p) {
 // Our pair can now be used as any other type.
 int main(int argc, char **argv) {
   CmdLine cmd("test pair argument");
-  ValueArg<std::pair<int, double> > parg("p", "pair", "int,double pair",
+  ValueArg<std::pair<int, double>> parg("p", "pair", "int,double pair",
                                          true,
                                          std::make_pair(0, 0.0),
                                          "int,double",
